@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-lab"
+version = "0.1.0"
+description = "Map of the RAG architecture study: its repos, the shared base and the benchmark."
+requires-python = ">=3.12"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    # pinned exactly because formatter output and the mypy error set both shift between releases
+    "ruff==0.16.0",
+    "mypy==2.3.0",
+]
+
+# no package code lives here, only the guard test
+[tool.setuptools]
+packages = []
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["tests"]
+extend-exclude = ["repos"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_unused_ignores = true
+files = ["tests"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
