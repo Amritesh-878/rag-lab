@@ -75,7 +75,7 @@ def test_submodules_are_the_finished_repos() -> None:
 def test_submodules_point_at_the_mapped_urls() -> None:
     urls = {entry["name"]: entry["url"] for entry in load_map()}
     for name, submodule in load_submodules().items():
-        assert submodule["path"] in {name, f"repos/{name}"}
+        assert submodule["path"] == name
         assert submodule["url"] == f"{urls[name]}.git"
 
 

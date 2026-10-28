@@ -66,9 +66,10 @@ git clone --recursive https://github.com/Amritesh-878/rag-lab.git
 ```
 
 In a clone made without `--recursive`, `git submodule update --init` fetches the same commits.
-Each submodule under `repos/` is pinned to one commit of its repo. `repos.toml` is the same map in
-machine-readable form: each repo's name, role, URL and the rag-core tag it installs. rag-agentic
-gets a submodule once it has a first commit.
+Each `rag-*` folder at the top of this repo is a submodule pinned to one commit of its repo, and
+the last commit on each folder says in one line what that repo does. `repos.toml` is the same map
+in machine-readable form: each repo's name, role, URL and the rag-core tag it installs.
+rag-agentic gets a submodule once it has a first commit.
 
 Install and run instructions live in each repo's own README. Nothing here needs installing to use
 the study.
