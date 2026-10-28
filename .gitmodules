@@ -1,0 +1,24 @@
+[submodule "repos/rag-core"]
+	path = repos/rag-core
+	url = https://github.com/Amritesh-878/rag-core.git
+[submodule "repos/rag-memory"]
+	path = repos/rag-memory
+	url = https://github.com/Amritesh-878/rag-memory.git
+[submodule "repos/rag-hyde"]
+	path = repos/rag-hyde
+	url = https://github.com/Amritesh-878/rag-hyde.git
+[submodule "repos/rag-branched"]
+	path = repos/rag-branched
+	url = https://github.com/Amritesh-878/rag-branched.git
+[submodule "repos/rag-adaptive"]
+	path = repos/rag-adaptive
+	url = https://github.com/Amritesh-878/rag-adaptive.git
+[submodule "repos/rag-crag"]
+	path = repos/rag-crag
+	url = https://github.com/Amritesh-878/rag-crag.git
+[submodule "repos/rag-self"]
+	path = repos/rag-self
+	url = https://github.com/Amritesh-878/rag-self.git
+[submodule "repos/rag-bench"]
+	path = repos/rag-bench
+	url = https://github.com/Amritesh-878/rag-bench.git

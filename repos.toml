@@ -1,0 +1,64 @@
+# One entry per repo in the study; rag_core_tag is the base tag each repo installs.
+
+[[repo]]
+name = "rag-core"
+role = "base"
+architecture = "simple"
+url = "https://github.com/Amritesh-878/rag-core"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-memory"
+role = "architecture"
+architecture = "memory"
+url = "https://github.com/Amritesh-878/rag-memory"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-hyde"
+role = "architecture"
+architecture = "hyde"
+url = "https://github.com/Amritesh-878/rag-hyde"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-branched"
+role = "architecture"
+architecture = "branched"
+url = "https://github.com/Amritesh-878/rag-branched"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-adaptive"
+role = "architecture"
+architecture = "adaptive"
+url = "https://github.com/Amritesh-878/rag-adaptive"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-crag"
+role = "architecture"
+architecture = "crag"
+url = "https://github.com/Amritesh-878/rag-crag"
+rag_core_tag = "v0.2.12"
+
+[[repo]]
+name = "rag-self"
+role = "architecture"
+architecture = "self"
+url = "https://github.com/Amritesh-878/rag-self"
+rag_core_tag = "v0.2.12"
+
+# In progress: the repo is empty, so it has no submodule and no base tag yet.
+[[repo]]
+name = "rag-agentic"
+role = "architecture"
+architecture = "agentic"
+url = "https://github.com/Amritesh-878/rag-agentic"
+in_progress = true
+
+[[repo]]
+name = "rag-bench"
+role = "benchmark"
+url = "https://github.com/Amritesh-878/rag-bench"
+rag_core_tag = "v0.2.11"
