@@ -1,6 +1,3 @@
-[submodule "repos/rag-hyde"]
-	path = repos/rag-hyde
-	url = https://github.com/Amritesh-878/rag-hyde.git
 [submodule "repos/rag-branched"]
 	path = repos/rag-branched
 	url = https://github.com/Amritesh-878/rag-branched.git
@@ -22,3 +19,6 @@
 [submodule "rag-memory"]
 	path = rag-memory
 	url = https://github.com/Amritesh-878/rag-memory.git
+[submodule "rag-hyde"]
+	path = rag-hyde
+	url = https://github.com/Amritesh-878/rag-hyde.git
