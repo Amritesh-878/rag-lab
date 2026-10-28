@@ -72,3 +72,17 @@ gets a submodule once it has a first commit.
 
 Install and run instructions live in each repo's own README. Nothing here needs installing to use
 the study.
+
+## Checking the map
+
+`tests/test_links.py` fails when the README tables, `repos.toml` and `.gitmodules` stop naming the
+same repos. It reads the three files and makes no network call.
+
+```bash
+uv venv -p 3.14.7 .venv
+uv pip install --python .venv/Scripts/python.exe -e ".[dev]"
+.venv/Scripts/python.exe -m ruff check .
+.venv/Scripts/python.exe -m ruff format --check .
+.venv/Scripts/python.exe -m mypy tests
+.venv/Scripts/python.exe -m pytest -q
+```
