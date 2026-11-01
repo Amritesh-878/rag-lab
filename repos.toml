@@ -49,7 +49,6 @@ architecture = "self"
 url = "https://github.com/Amritesh-878/rag-self"
 rag_core_tag = "v0.2.12"
 
-# In progress: the repo is empty, so it has no submodule and no base tag yet.
 [[repo]]
 name = "rag-agentic"
 role = "architecture"
