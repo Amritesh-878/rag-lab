@@ -27,7 +27,7 @@ calls an evaluation adds are counted apart.
 | adaptive | Asks the model whether the question is simple or complex. A simple one is searched once; a complex one is split into two to four sub queries, each is searched, and `k` chunks are chosen across them. | 4, a ceiling checked before every call; the paths cost 2 or 3 | [rag-adaptive](https://github.com/Amritesh-878/rag-adaptive) |
 | crag | Grades every retrieved chunk for relevance in one call. When fewer than three in four pass, it rewrites the question and replaces the failing chunks with fresh ones from the corpus. | 3 | [rag-crag](https://github.com/Amritesh-878/rag-crag) |
 | self | Answers first, then asks in one call whether the answer is grounded in its chunks and whether they were enough. When either is no, it retrieves again with a changed query and answers once more. | 3 | [rag-self](https://github.com/Amritesh-878/rag-self) |
-| agentic | Lets the model choose, turn by turn, among vector search, keyword search and document lookup over the corpus, then answers from four of the chunks it gathered. In progress: the repo answers through the base pipeline today, and the controller and its tools come next. | 8, across at most 6 turns | [rag-agentic](https://github.com/Amritesh-878/rag-agentic) |
+| agentic | Lets the model choose, turn by turn, among vector search, keyword search and document lookup over the corpus, then answers from four of the chunks it gathered. | 8, across at most 6 turns | [rag-agentic](https://github.com/Amritesh-878/rag-agentic) |
 
 Each repo's README explains its mechanism in depth, with worked examples and the cases where the
 mechanism works against the question.
