@@ -12,7 +12,7 @@ name = "rag-memory"
 role = "architecture"
 architecture = "memory"
 url = "https://github.com/Amritesh-878/rag-memory"
-rag_core_tag = "v0.2.12"
+rag_core_tag = "v0.2.13"
 
 [[repo]]
 name = "rag-hyde"
