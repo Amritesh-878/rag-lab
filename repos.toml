@@ -47,7 +47,7 @@ name = "rag-self"
 role = "architecture"
 architecture = "self"
 url = "https://github.com/Amritesh-878/rag-self"
-rag_core_tag = "v0.2.12"
+rag_core_tag = "v0.2.13"
 
 [[repo]]
 name = "rag-agentic"
