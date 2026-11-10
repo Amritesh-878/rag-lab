@@ -40,7 +40,7 @@ name = "rag-crag"
 role = "architecture"
 architecture = "crag"
 url = "https://github.com/Amritesh-878/rag-crag"
-rag_core_tag = "v0.2.12"
+rag_core_tag = "v0.2.13"
 
 [[repo]]
 name = "rag-self"
